@@ -1,3 +1,3 @@
 export default function App() {
-  return <div>Привет я новое задание</div>;
+  return <div>Привет я 2 задание список отзывов </div>;
 }
