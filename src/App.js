@@ -4,10 +4,14 @@ import Statistic from './components/Statistic';
 import FeedbackOptions from './components/FeedbackOptions';
 import Notification from './components/Notification';
 class App extends React.Component {
+  static defaultProps = {
+    initialValue: 0,
+  };
+
   state = {
-    good: 0,
-    neutral: 0,
-    bad: 0,
+    good: this.props.initialValue,
+    neutral: this.props.initialValue,
+    bad: this.props.initialValue,
   };
 
   increment = (value) => () => {
