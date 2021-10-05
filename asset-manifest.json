@@ -1,21 +1,21 @@
 {
   "files": {
     "main.css": "/goit-react-hw-02-feedback/static/css/main.5225e864.chunk.css",
-    "main.js": "/goit-react-hw-02-feedback/static/js/main.1568a0de.chunk.js",
-    "main.js.map": "/goit-react-hw-02-feedback/static/js/main.1568a0de.chunk.js.map",
-    "runtime-main.js": "/goit-react-hw-02-feedback/static/js/runtime-main.a6340e5c.js",
-    "runtime-main.js.map": "/goit-react-hw-02-feedback/static/js/runtime-main.a6340e5c.js.map",
-    "static/js/2.28e31675.chunk.js": "/goit-react-hw-02-feedback/static/js/2.28e31675.chunk.js",
-    "static/js/2.28e31675.chunk.js.map": "/goit-react-hw-02-feedback/static/js/2.28e31675.chunk.js.map",
+    "main.js": "/goit-react-hw-02-feedback/static/js/main.51f7c035.chunk.js",
+    "main.js.map": "/goit-react-hw-02-feedback/static/js/main.51f7c035.chunk.js.map",
+    "runtime-main.js": "/goit-react-hw-02-feedback/static/js/runtime-main.97a5dec5.js",
+    "runtime-main.js.map": "/goit-react-hw-02-feedback/static/js/runtime-main.97a5dec5.js.map",
+    "static/js/2.78e38578.chunk.js": "/goit-react-hw-02-feedback/static/js/2.78e38578.chunk.js",
+    "static/js/2.78e38578.chunk.js.map": "/goit-react-hw-02-feedback/static/js/2.78e38578.chunk.js.map",
     "index.html": "/goit-react-hw-02-feedback/index.html",
     "static/css/main.5225e864.chunk.css.map": "/goit-react-hw-02-feedback/static/css/main.5225e864.chunk.css.map",
-    "static/js/2.28e31675.chunk.js.LICENSE.txt": "/goit-react-hw-02-feedback/static/js/2.28e31675.chunk.js.LICENSE.txt",
+    "static/js/2.78e38578.chunk.js.LICENSE.txt": "/goit-react-hw-02-feedback/static/js/2.78e38578.chunk.js.LICENSE.txt",
     "static/media/index.css": "/goit-react-hw-02-feedback/static/media/let-there-be-sun.2768b606.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.a6340e5c.js",
-    "static/js/2.28e31675.chunk.js",
+    "static/js/runtime-main.97a5dec5.js",
+    "static/js/2.78e38578.chunk.js",
     "static/css/main.5225e864.chunk.css",
-    "static/js/main.1568a0de.chunk.js"
+    "static/js/main.51f7c035.chunk.js"
   ]
 }
