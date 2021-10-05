@@ -3,6 +3,8 @@ import Section from './components/Section';
 import Statistic from './components/Statistic';
 import FeedbackOptions from './components/FeedbackOptions';
 import Notification from './components/Notification';
+
+import s from './App.module.css';
 class App extends React.Component {
   static defaultProps = {
     initialValue: 0,
@@ -30,7 +32,7 @@ class App extends React.Component {
     );
 
     return (
-      <div>
+      <div className={s.container}>
         <Section title={'Please leave feedback'}>
           <FeedbackOptions
             options={options}

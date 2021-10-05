@@ -1,4 +1,5 @@
 import PropTypes from 'prop-types';
+import s from './Statistic.module.css';
 
 export default function Statistic({
   good,
@@ -8,26 +9,26 @@ export default function Statistic({
   positiveFeedback,
 }) {
   return (
-    <div>
-      <ul>
-        <li>
-          <span>Good:</span>
+    <div className={s.container}>
+      <ul className={s.list}>
+        <li className={s.item}>
+          <span>Good:&#160;</span>
           {good}
         </li>
-        <li>
-          <span>Neutral:</span>
+        <li className={s.item}>
+          <span>Neutral:&#160;</span>
           {neutral}
         </li>
-        <li>
-          <span>Bad:</span>
+        <li className={s.item}>
+          <span>Bad:&#160;</span>
           {bad}
         </li>
-        <li>
-          <span>Total:</span>
+        <li className={s.item}>
+          <span>Total:&#160;</span>
           {total}
         </li>
-        <li>
-          <span>Positive:</span>
+        <li className={s.item}>
+          <span>Positive:&#160;</span>
           {positiveFeedback}%
         </li>
       </ul>
