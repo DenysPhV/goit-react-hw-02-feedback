@@ -33,7 +33,7 @@ class App extends React.Component {
 
     return (
       <div className={s.container}>
-        <Section title={'Please leave feedback'}>
+        <Section title="Please leave feedback">
           <FeedbackOptions options={options} onLeaveFeedback={this.increment} />
         </Section>
 
