@@ -34,14 +34,11 @@ class App extends React.Component {
     return (
       <div className={s.container}>
         <Section title={'Please leave feedback'}>
-          <FeedbackOptions
-            options={options}
-            onLeaveFeedback={this.increment}
-          ></FeedbackOptions>
+          <FeedbackOptions options={options} onLeaveFeedback={this.increment} />
         </Section>
 
         {countTotalFeedback > 0 ? (
-          <Section title={'Statistics'}>
+          <Section title="Statistics">
             <Statistic
               good={good}
               neutral={neutral}
